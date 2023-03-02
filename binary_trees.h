@@ -19,4 +19,11 @@ typedef struct binary_tree_s
 	struct binary_tree_s *right;
 } binary_tree_t;
 
+/**
+ * binary_tree_node - creates a new node to add to a binary tree
+ * @parent: parent to add node to as child
+ * @value: stores data of node
+ */
+
+binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 #endif
