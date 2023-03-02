@@ -74,4 +74,11 @@ int print_t(const binary_tree_t *tree, int offset, int depth, char **s);
  */
 
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
+
+/**
+ * binary_tree_delete - deletes tree
+ * @tree: pointer to the root node of tree to delete
+ */
+
+void binary_tree_delete(binary_tree_t *tree);
 #endif
