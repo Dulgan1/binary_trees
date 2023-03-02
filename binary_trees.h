@@ -26,4 +26,13 @@ typedef struct binary_tree_s
  */
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
+
+/**
+ * binary_tree_insert_right - function inserts node as right child
+ * @parent: parent of node
+ * @value: data for node
+ * Return: returns the node
+ */
+
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 #endif
