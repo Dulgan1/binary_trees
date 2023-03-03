@@ -38,35 +38,6 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 
 /**
- * binary_tree_print - Prints a binary tree
- *
- * @tree: Pointer to the root node of the tree to print
- */
-
-void binary_tree_print(const binary_tree_t *tree);
-
-/**
- * _height - Measures the height of a binary tree
- * @tree: Pointer to the node to measures the height
- * Return: The height of the tree starting at @node
- */
-
-size_t _height(const binary_tree_t *tree);
-
-/**
- * print_t - Stores recursively each level in an array of strings
- *
- * @tree: Pointer to the node to print
- * @offset: Offset to print
- * @depth: Depth of the node
- * @s: Buffer
- *
- * Return: length of printed tree after process
- */
-
-int print_t(const binary_tree_t *tree, int offset, int depth, char **s);
-
-/**
  * binary_tree_insert_left - inserts new node by left of parent
  * @parent: parent to insert node to by left
  * @value: value for data of node
@@ -81,4 +52,4 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
  */
 
 void binary_tree_delete(binary_tree_t *tree);
-#endif
+#endif /* BINARY_TREES_H */
