@@ -52,4 +52,12 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
  */
 
 void binary_tree_delete(binary_tree_t *tree);
+
+/**
+ * binary_tree_is_leaf - checks if a sub-tree/node is a leaf
+ * @node: the node to check
+ * Retrun: returns 1 if true, 0 isf not
+ */
+
+int binary_tree_is_leaf(const binary_tree_t *node);
 #endif /* BINARY_TREES_H */
