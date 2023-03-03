@@ -1,5 +1,7 @@
 #ifndef PRINT_H
 #define PRINT_H
+#include "../binary_trees.h"
+#include <stddef.h> /* size_t */
 
 /**
  * print_t - Stores recursively each level in an array of strings
