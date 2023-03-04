@@ -101,4 +101,12 @@ void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
  */
 
 size_t binary_tree_height(const binary_tree_t *tree);
+
+/**
+ * binary_tree_depth - gets the depth of apassed tree
+ * @tree: passed tree
+ * Return: depth of tree
+ */
+
+size_t binary_tree_depth(const binary_tree_t *tree);
 #endif /* BINARY_TREES_H */
