@@ -92,4 +92,13 @@ void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
  */
 
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
+
+/**
+ * binary_tree_height - gets the distance of the  farthest leaf of a tree
+ *                      from root
+ * @tree: tree to work on
+ * Return: height of tree
+ */
+
+size_t binary_tree_height(const binary_tree_t *tree);
 #endif /* BINARY_TREES_H */
