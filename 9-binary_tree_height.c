@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_height - gets the distance of the  farthest leaf of a tree
- * 			from root
+ * from root
  * @tree: tree to work on
  * Return: height of tree
  */
