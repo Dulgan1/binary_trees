@@ -109,4 +109,12 @@ size_t binary_tree_height(const binary_tree_t *tree);
  */
 
 size_t binary_tree_depth(const binary_tree_t *tree);
+
+/**
+ * binary_tree_size - gets the size of a binary tree
+ * @tree: the tree
+ * Return: in size_t the size of tree
+ */
+
+size_t binary_tree_size(const binary_tree_t *tree);
 #endif /* BINARY_TREES_H */
