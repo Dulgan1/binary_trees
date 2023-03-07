@@ -124,6 +124,13 @@ size_t binary_tree_size(const binary_tree_t *tree);
  * Return: Number of leaves
  */
 
-
 size_t binary_tree_leaves(const binary_tree_t *tree);
+
+/**
+ * binary_tree_nodes - counts nodes with atleast one child
+ * @tree: tree to count nodes from
+ * Return: returns in size_t, the sum of nodes
+ */
+
+size_t binary_tree_nodes(const binary_tree_t *tree);
 #endif /* BINARY_TREES_H */
